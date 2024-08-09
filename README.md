@@ -40,8 +40,8 @@ SiDilan is an enhancement over the previous Posyandu application, designed to im
 ## 🛠️ Technologies
 
 - **Frontend**:
-  - [Vue.js (TypeScript)](https://vuejs.org/)
-  - [React.js (TypeScript)](https://reactjs.org/)
+  - [Vue (TypeScript)](https://vuejs.org/)
+  - [React (TypeScript)](https://reactjs.org/)
 - **Backend**:
   - [OpenAPI](https://posyandu-data-management.vercel.app/)
   - [Laravel Domain-Driven Design](https://github.com/oskhar/RestAPI-Posyandu-Data-Management-MultiVersion)
@@ -50,8 +50,8 @@ SiDilan is an enhancement over the previous Posyandu application, designed to im
 
 ### Prerequisites
 
-- Node.js v14.x or higher
-- npm v6.x or higher
+- Node.js v16.x or higher
+- pnpm v6.x or higher
 
 ### Clone the Repository
 
@@ -62,37 +62,31 @@ cd Web-Posyandu-Data-Management-MultiVersion
 
 ### Install Dependencies
 
-For Vue.js version:
+For Vue version:
 
 ```bash
 cd vue-ts
-npm install
+pnpm install
 ```
 
-For React.js version:
+For React version:
 
 ```bash
 cd react-ts
-npm install
+pnpm install
 ```
 
 ### Running the Application
 
-For Vue.js version:
+For Vue & React version:
 
 ```bash
-npm run serve
-```
-
-For React.js version:
-
-```bash
-npm start
+pnpm dev
 ```
 
 ## 💻 Usage
 
-Once the application is running, you can access it via `http://localhost:8080` (Vue.js) or `http://localhost:3000` (React.js). The application will interact with the backend API, which you can also run locally by following the instructions in the [RestAPI-Posyandu-Data-Management-MultiVersion](https://github.com/oskhar/RestAPI-Posyandu-Data-Management-MultiVersion) repository.
+Once the application is running, you can access it via `http://localhost:5173/` (Vite). The application will interact with the backend API, which you can also run locally by following the instructions in the [RestAPI-Posyandu-Data-Management-MultiVersion](https://github.com/oskhar/RestAPI-Posyandu-Data-Management-MultiVersion) repository.
 
 ## 📚 API Documentation
 
@@ -105,7 +99,7 @@ git clone https://github.com/oskhar/RestAPI-Posyandu-Data-Management-MultiVersio
 cd RestAPI-Posyandu-Data-Management-MultiVersion
 ```
 
-Please note that the only stable version at this time is `laravel-domain-driven-version`. Other versions, including those written in Golang and Express, are currently unstable.
+> **Note:** Please note that the only stable version at this time is `laravel-domain-driven-version`. Other versions, including those written in Golang and Express, are currently unstable.
 
 ## 🤝 Contributing
 
