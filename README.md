@@ -2,7 +2,7 @@
 
 **SiDilan** (Sistem Informasi Posyandu Melati Sembilan) adalah sistem informasi yang inovatif dan dirancang sebagai peningkatan dari aplikasi Posyandu sebelumnya. Dikembangkan bekerja sama dengan pemerintah lokal, SiDilan mengintegrasikan fitur-fitur canggih untuk mendukung kegiatan Posyandu, dengan fokus pada pemantauan kesehatan anak, pemberdayaan masyarakat, dan inisiatif pendidikan untuk pencegahan stunting.
 
-## Table of Contents
+## 📋 Table of Contents
 
 - [Introduction](#introduction)
 - [Features](#features)
