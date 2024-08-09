@@ -45,10 +45,6 @@ SiDilan is an enhancement over the previous Posyandu application, designed to im
 - **Backend**:
   - [OpenAPI](https://posyandu-data-management.vercel.app/)
   - [Laravel Domain-Driven Design](https://github.com/oskhar/RestAPI-Posyandu-Data-Management-MultiVersion)
-- **Other Tools**:
-  - [Docker](https://www.docker.com/)
-  - [Kubernetes](https://kubernetes.io/)
-  - [Jenkins CI/CD](https://www.jenkins.io/)
 
 ## 📦 Installation
 
@@ -56,7 +52,6 @@ SiDilan is an enhancement over the previous Posyandu application, designed to im
 
 - Node.js v14.x or higher
 - npm v6.x or higher
-- Docker (for local development with backend API)
 
 ### Clone the Repository
 
