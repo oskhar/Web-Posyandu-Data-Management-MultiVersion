@@ -2,7 +2,7 @@
 
 Thank you for considering contributing to the **Web-Posyandu-Data-Management-MultiVersion** project! We value your input and contributions, whether it's code, documentation, bug reports, or suggestions for improvements.
 
-## Table of Contents
+## 📋 Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [How to Contribute](#how-to-contribute)
@@ -18,11 +18,11 @@ Thank you for considering contributing to the **Web-Posyandu-Data-Management-Mul
 - [Running the Backend Locally](#running-the-backend-locally)
 - [License](#license)
 
-## Code of Conduct
+## ⚖️ Code of Conduct
 
 Please read and follow our [Code of Conduct](CODE_OF_CONDUCT.md) to ensure a welcoming and friendly environment for everyone participating in the project.
 
-## How to Contribute
+## ✨ How to Contribute
 
 ### Issues
 
@@ -57,15 +57,58 @@ To submit a pull request:
 3. Push your branch to your forked repository.
 4. Open a pull request against the `main` branch.
 
-## Coding Guidelines
+## 📐 Coding Guidelines
 
 ### Commit Messages
 
-Please follow the guidelines below for writing clear and concise commit messages:
+To maintain consistency and clarity in your commit messages, please follow the [Conventional Commits](https://www.conventionalcommits.org/) format. This structure not only helps in understanding the changes made but also supports automation tools for versioning and changelog generation.
 
-- Use the present tense ("Add feature" not "Added feature").
-- Limit the subject line to 50 characters.
-- Include relevant issue numbers in the commit message if applicable.
+#### **Commit Message Format**
+
+```
+<type>[scope]: <description>
+```
+
+- **type**: The type of change being made (e.g., `feat`, `fix`, `docs`).
+- **scope**: A short label indicating the part of the codebase affected (optional).
+- **description**: A brief description of the change in the present tense.
+
+#### **Types**
+
+- `feat`: A new feature.
+- `fix`: A bug fix.
+- `docs`: Documentation-only changes.
+- `style`: Changes that do not affect the meaning of the code (e.g., white-space, formatting, missing semi-colons).
+- `refactor`: A code change that neither fixes a bug nor adds a feature.
+- `perf`: A code change that improves performance.
+- `test`: Adding missing tests or correcting existing tests.
+- `build`: Changes that affect the build system or external dependencies (e.g., gulp, npm).
+- `ci`: Changes to our CI configuration files and scripts (e.g., GitHub Actions, CircleCI).
+- `chore`: Other changes that don't modify src or test files.
+- `revert`: Reverts a previous commit.
+
+#### **List Scopes**
+
+For the `Web-Posyandu-Data-Management-MultiVersion` project, these scopes are suggested:
+
+- `ui`: User Interface components or layout changes.
+- `styles`: CSS or styling-related changes.
+- `state`: State management (e.g., Vuex, Redux).
+- `routing`: Changes to client-side routing.
+- `components`: Changes or additions to Vue or React components.
+- `api`: Interaction with backend APIs.
+- `testing`: Frontend testing (e.g., Jest, Cypress).
+- `build`: Webpack, Vite, or other build-related changes.
+- `docs`: Changes to frontend documentation.
+- `config`: Configuration files for the frontend project (e.g., ESLint, Prettier).
+
+#### **Examples**
+
+- `feat[ui]: Add new dashboard layout`
+- `fix[api]: Resolve issue with POST request in SiBinggo`
+- `style[styles]: Update button color to match branding`
+- `docs[documentation]: Add usage instructions for Resleting feature`
+- `test[state]: Add unit tests for Vuex store actions`
 
 ### Branching Strategy
 
@@ -79,7 +122,7 @@ Please adhere to the following coding standards:
 - Write clear, descriptive comments where necessary.
 - Follow the project's ESLint configuration for code style.
 
-## Testing
+## 🧪 Testing
 
 All contributions must include appropriate unit tests. Ensure that your code passes all existing tests and that your new tests cover any additional functionality you introduce.
 
