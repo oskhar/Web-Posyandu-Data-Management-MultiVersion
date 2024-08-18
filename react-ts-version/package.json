@@ -21,6 +21,7 @@
   "dependencies": {
     "@radix-ui/react-icons": "^1.3.0",
     "@radix-ui/react-slot": "^1.1.0",
+    "@t3-oss/env-nextjs": "^0.11.0",
     "@tanstack/react-query": "^5.51.23",
     "apexcharts": "^3.49.1",
     "class-variance-authority": "^0.7.0",
@@ -32,7 +33,8 @@
     "react-use": "^17.5.0",
     "server-only": "^0.0.1",
     "tailwind-merge": "^2.5.2",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
     "@tanstack/react-query-devtools": "^5.51.23",
