@@ -12,6 +12,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx}\""
   },
   "dependencies": {
+    "@tanstack/react-query": "^5.51.23",
     "apexcharts": "^3.49.1",
     "next": "^14.2.3",
     "react": "^18.3.1",
@@ -21,22 +22,26 @@
     "server-only": "^0.0.1"
   },
   "devDependencies": {
+    "@tanstack/react-query-devtools": "^5.51.23",
     "@types/node": "^20.14.2",
     "@types/react": "^18.3.3",
     "@types/react-dom": "^18.3.0",
     "@typescript-eslint/eslint-plugin": "^7.13.0",
     "@typescript-eslint/parser": "^7.13.0",
     "autoprefixer": "^10.4.19",
+    "cypress": "^13.13.3",
     "eslint": "^8.57.0",
     "eslint-config-next": "^14.2.3",
     "eslint-config-prettier": "^9.1.0",
     "eslint-import-resolver-typescript": "^3.6.1",
     "eslint-plugin-import": "^2.29.1",
+    "msw": "^2.3.5",
     "postcss": "^8.4.38",
     "postcss-styled-syntax": "^0.6.4",
     "prettier": "^3.3.2",
     "tailwindcss": "^3.4.4",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "vitest": "^2.0.5"
   },
   "resolutions": {
     "rimraf": "^5.0.7"
