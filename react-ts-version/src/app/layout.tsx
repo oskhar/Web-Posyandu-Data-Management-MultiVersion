@@ -1,14 +1,4 @@
-// Third-party Imports
-import 'react-perfect-scrollbar/dist/css/styles.css'
-
-// Type Imports
-import type { ChildrenType } from '@core/types'
-
-// Style Imports
 import '@/app/globals.css'
-
-// Generated Icon CSS Imports
-import '@assets/iconify-icons/generated-icons.css'
 
 export const metadata = {
   title: 'Demo: Materio - NextJS Dashboard Free',
@@ -16,7 +6,7 @@ export const metadata = {
     'Develop next-level web apps with Materio Dashboard Free - NextJS. Now, updated with lightning-fast routing powered by MUI and App router.'
 }
 
-const RootLayout = ({ children }: ChildrenType) => {
+const RootLayout = ({ children }: { children: React.ReactNode }) => {
   // Vars
   const direction = 'ltr'
 
